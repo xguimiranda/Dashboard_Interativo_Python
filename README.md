@@ -23,18 +23,13 @@
 
 ## 🎬 Demonstração Rápida
 
-![Demonstração interativa](assets/demo-animado.gif)
+![Demonstração interativa](assets/gif2.gif)
 
 ---
 
 ## 🌐 Acesse o Dashboard Online
 
 ### 🔗 **[📱 Abrir Dashboard Interativo](https://dashboard-interativo-alura-gui.streamlit.app/)**
-
-<div align="center">
-  <img src="assets/dashboardInicial.png" alt="Dashboard - Visão Inicial" width="1000px"/>
-  <p><em>🎨 Interface principal do dashboard com filtros e métricas</em></p>
-</div>
 
 ---
 
@@ -80,9 +75,7 @@
 
 ---
 
-## 🖼️ Capturas de Tela do Dashboard
-
-### 📊 **Visão Geral dos Gráficos**
+## 📊 **Visão Geral dos Gráficos**
 <div align="center">
   <img src="assets/graficos.png" alt="Dashboard - Gráficos Interativos" width="1000px"/>
   <p><em>🎯 Visualizações dinâmicas: Top cargos, distribuição salarial, mapa mundial e modalidades de trabalho</em></p>
@@ -94,7 +87,7 @@
   <p><em>🔬 Processo de análise e tratamento dos dados durante a Imersão Alura</em></p>
 </div>
 
-> 📁 **Todas as imagens estão salvas na pasta `assets/` para referência visual**
+> 📁 **O arquivo /dados-imersao-final.csv esta os dados com as alterações feito no google colab**
 
 ---
 
@@ -136,8 +129,6 @@ Contribuições, ideias novas e sugestões são sempre muito bem-vindas! Se voc�
 <div align="center">
 
 ### ⭐ **Gostou do projeto? Deixe uma estrela!** ⭐
-
-**🔗 [Dashboard Interativo Online](https://dashboard-interativo-alura-gui.streamlit.app/)**
 
 *Desenvolvido com ❤️ durante a Imersão de Dados Alura*
 
