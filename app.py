@@ -39,3 +39,7 @@ df_filtrado = df[
     (df['contrato'].isin(contratos_selecionados)) &
     (df['tamanho_empresa'].isin(tamanhos_selecionados))
 ]
+
+# --- Conteúdo Principal ---
+st.title("🎲 Dashboard de Análise de Salários na Área de Dados")
+st.markdown("Explore os dados salariais na área de dados nos últimos anos. Utilize os filtros à esquerda para refinar sua análise.")
