@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://dashboard-interativo-alura-gui.streamlit.app">
-    <img src="assets/alura.png" alt="Imersão alura" width="150px"/>
+    
   </a>
 </div>
 <br>
