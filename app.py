@@ -116,3 +116,22 @@ with col_graf3:
         st.plotly_chart(grafico_remoto, use_container_width=True)
     else:
         st.warning("Nenhum dado para exibir no gráfico dos tipos de trabalho.")
+
+with col_graf4:
+    if not df_filtrado.empty:
+        df_ds = df_filtrado[df_filtrado['cargo'] == 'Data Scientist']
+        media_ds_pais = df_ds.groupby('residencia_iso3')['usd'].mean().reset_index()
+        grafico_paises = px.choropleth(media_ds_pais,
+            locations='residencia_iso3',
+            color='usd',
+            color_continuous_scale='rdylgn',
+            title='Salário médio de Cientista de Dados por país',
+            labels={'usd': 'Salário médio (USD)', 'residencia_iso3': 'País'})
+        grafico_paises.update_layout(title_x=0.1)
+        st.plotly_chart(grafico_paises, use_container_width=True)
+    else:
+        st.warning("Nenhum dado para exibir no gráfico de países.") 
+
+# --- Tabela de Dados Detalhados ---
+st.subheader("Dados Detalhados")
+st.dataframe(df_filtrado)
