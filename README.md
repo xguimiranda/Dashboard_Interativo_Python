@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://dashboard-interativo-alura-gui.streamlit.app">
-    <img src="assets/imersaoAlura.png" alt="Imersão alura" width="150px"/>
+    <img src="assets/imersaoAlura.png" alt="Imersão alura" width="1000px"/>
   </a>
 </div>
 <br>
@@ -39,9 +39,9 @@ O objetivo é explorar e analisar dados salariais de profissionais da área de d
 ## 🌐 Acesso ao dashboard
 Acesse a versão online do app:
 
-🔗 **[Abrir no Streamlit](https://SEU-LINK-DO-STREAMLIT-AQUI)**
+🔗 **[Abrir no Streamlit](https://dashboard-interativo-alura-gui.streamlit.app/)**
 
-> Substitua o link acima pelo seu URL do Streamlit (ex.: `https://dashboard-interativo-alura-gui.streamlit.app`).
+![Dashboard - Visão Geral](assets/dashboardInicial.png)
 
 ---
 
@@ -57,42 +57,7 @@ Acesse a versão online do app:
 - [Python](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Streamlit](https://streamlit.io/)
-- [Matplotlib](https://matplotlib.org/) / [Plotly](https://plotly.com/python/) *(se aplicável)*
-
----
-
-## 📋 Pré-requisitos
-- **Git**
-- **Python 3.10+**
-- **Pip**
-
----
-
-## 🚀 Como executar o projeto localmente
-```bash
-# Clone este repositório
-git clone https://github.com/xguimiranda/Dashboard_Interativo_Python.git
-
-# Acesse a pasta do projeto
-cd Dashboard_Interativo_Python
-
-# (Opcional, mas recomendado) Crie um ambiente virtual
-python -m venv .venv
-
-# Ative o ambiente virtual
-# Windows (PowerShell):
-.\.venv\Scripts\Activate.ps1
-# Windows (CMD):
-.\.venv\Scripts\activate.bat
-# Linux/Mac:
-source .venv/bin/activate
-
-# Instale as dependências
-pip install -r requirements.txt
-
-# Execute a aplicação
-streamlit run app.py
-```
+- [Matplotlib](https://matplotlib.org/) / [Plotly](https://plotly.com/python/) 
 
 ---
 
