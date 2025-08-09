@@ -21,32 +21,9 @@
 
 ---
 
-## 🎯 Sobre o Projeto
+## 🎬 Demonstração Rápida
 
-> 🎓 **Desenvolvido durante a Imersão de Dados com Python da [Alura](https://www.alura.com.br/)**
-
-Este dashboard interativo foi criado para **democratizar o acesso a insights sobre salários na área de dados**! 🚀
-
-### 🔍 O que você pode descobrir:
-
-💰 **Análise Salarial Completa**
-- Salários médios e máximos por posição
-- Tendências salariais ao longo dos anos
-- Comparação entre diferentes níveis de senioridade
-
-📊 **Visualizações Interativas**
-- Gráficos dinâmicos que respondem aos seus filtros
-- Distribuição de salários por faixa
-- Top 10 cargos mais bem remunerados
-- Análise geográfica de salários por país
-
-🎛️ **Filtros Inteligentes**
-- **Ano**: Acompanhe a evolução temporal
-- **Senioridade**: Junior, Pleno, Senior
-- **Tipo de Contrato**: Tempo integral, meio período, freelance
-- **Tamanho da Empresa**: Startup, média, grande corporação
-
-> 💾 **Dados**: O dataset `dados-imersao-final.csv` contém informações consolidadas e tratadas durante as aulas da imersão.
+![Demonstração interativa](assets/demo-animado.gif)
 
 ---
 
@@ -55,7 +32,7 @@ Este dashboard interativo foi criado para **democratizar o acesso a insights sob
 ### 🔗 **[📱 Abrir Dashboard Interativo](https://dashboard-interativo-alura-gui.streamlit.app/)**
 
 <div align="center">
-  <img src="assets/dashboardInicial.png" alt="Dashboard - Visão Inicial" width="800px"/>
+  <img src="assets/dashboardInicial.png" alt="Dashboard - Visão Inicial" width="1000px"/>
   <p><em>🎨 Interface principal do dashboard com filtros e métricas</em></p>
 </div>
 
@@ -107,13 +84,13 @@ Este dashboard interativo foi criado para **democratizar o acesso a insights sob
 
 ### 📊 **Visão Geral dos Gráficos**
 <div align="center">
-  <img src="assets/graficos.png" alt="Dashboard - Gráficos Interativos" width="800px"/>
+  <img src="assets/graficos.png" alt="Dashboard - Gráficos Interativos" width="1000px"/>
   <p><em>🎯 Visualizações dinâmicas: Top cargos, distribuição salarial, mapa mundial e modalidades de trabalho</em></p>
 </div>
 
 ### 💻 **Análise no Google Colab**
 <div align="center">
-  <img src="assets/colab.png" alt="Análise no Google Colab" width="800px"/>
+  <img src="assets/colab.png" alt="Análise no Google Colab" width="200px"/>
   <p><em>🔬 Processo de análise e tratamento dos dados durante a Imersão Alura</em></p>
 </div>
 
@@ -137,89 +114,11 @@ Este dashboard interativo foi criado para **democratizar o acesso a insights sob
     └── colab.png                # 💻 Análise no Google Colab
 ```
 
-### 📋 **Como executar localmente:**
-
-```bash
-# 1️⃣ Clone o repositório
-git clone https://github.com/xguimiranda/Dashboard_Interativo_Python.git
-
-# 2️⃣ Entre na pasta do projeto
-cd Dashboard_Interativo_Python
-
-# 3️⃣ Instale as dependências
-pip install -r requirements.txt
-
-# 4️⃣ Execute o dashboard
-streamlit run app.py
-```
-
----
-
-## 🎓 Jornada da Imersão Alura
-
-### 📚 **Cronograma das Aulas:**
-
-- 🔄 **Aulas 1-3**: Limpeza e transformação dos dados
-  - Tratamento de dados inconsistentes
-  - Padronização de moedas para USD
-  - Criação do dataset final `dados-imersao-final.csv`
-
-- 🎨 **Aula 4**: Desenvolvimento do dashboard
-  - Construção da interface em Streamlit
-  - Implementação de filtros interativos  
-  - Criação de visualizações dinâmicas
-
-- 🌐 **Aula 5**: Deploy e refinamentos
-  - Publicação no Streamlit Community Cloud
-  - Ajustes finais na experiência do usuário
-  - Otimização de performance
-
-### 🎯 **Principais Aprendizados:**
-- 📊 Análise exploratória de dados com Pandas
-- 🎨 Criação de dashboards interativos com Streamlit
-- 📈 Visualizações avançadas com Plotly
-- 🌐 Deploy de aplicações em produção
-
 ---
 
 ## 🤝 Como Contribuir
 
-Adoraria receber suas contribuições! 🚀 Toda ajuda é bem-vinda:
-
-### 🔧 **Tipos de Contribuição:**
-- 🐛 **Correção de bugs**
-- ✨ **Novas funcionalidades** 
-- 📊 **Melhorias nas visualizações**
-- 📝 **Aprimoramento da documentação**
-- 🎨 **Melhorias na interface**
-
-### 📋 **Processo:**
-1. 🍴 **Fork** o projeto
-2. 🌿 **Crie sua branch**: `git checkout -b feature/nova-funcionalidade`
-3. 💾 **Commit suas mudanças**: `git commit -m 'feat: adiciona nova funcionalidade'`
-4. 📤 **Push para a branch**: `git push origin feature/nova-funcionalidade`
-5. 🔄 **Abra um Pull Request**
-
-### 💡 **Ideias para contribuir:**
-- 📈 Adicionar novos tipos de gráficos
-- 🔍 Implementar mais filtros de análise
-- 🎨 Melhorar o design da interface
-- 📊 Incluir métricas estatísticas avançadas
-- 🌐 Adicionar suporte a outros idiomas
-
----
-
-## 📄 Licença
-
-Este projeto está licenciado sob a **Licença MIT** - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-### ⚖️ **Resumo da Licença:**
-- ✅ **Uso comercial permitido**
-- ✅ **Modificação permitida** 
-- ✅ **Distribuição permitida**
-- ✅ **Uso privado permitido**
-
-> 💡 **Sinta-se à vontade para usar, modificar e distribuir este projeto, mantendo os devidos créditos!**
+Contribuições, ideias novas e sugestões são sempre muito bem-vindas! Se você quiser ajudar a melhorar este projeto, fique à vontade para abrir issues, enviar pull requests ou compartilhar suas ideias.
 
 ---
 
