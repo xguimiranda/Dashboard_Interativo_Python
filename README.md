@@ -27,10 +27,13 @@
 
 ---
 
-## 🌐 Acesse o Dashboard Online
+## 🌍 Acesso
 
-### 🔗 **[📱 Abrir Dashboard Interativo](https://dashboard-interativo-alura-gui.streamlit.app/)**
+Para começar a usar a plataforma, basta acessar o [link](https://projeto-aprova.streamlit.app):
 
+```
+https://dashboard-interativo-alura-gui.streamlit.app/
+```
 ---
 
 ## ✨ Principais Funcionalidades
