@@ -1,150 +1,146 @@
 <div align="center">
   <a href="https://dashboard-interativo-alura-gui.streamlit.app">
-    <img src="assets/imersaoAlura.png" alt="Imersão alura" width="150px"/>
+    <img src="assets/imersaoAlura.png" alt="Imersão Alura - Python Data Dashboard" width="1000px"/>
   </a>
 </div>
-<br>
-<p align="center">
-  <a href="https://dashboard-interativo-alura-gui.streamlit.app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/website-%23007ACC?style=flat-square&logo=google-chrome&logoColor=white" alt="Site" />
-  </a>
-</p>
 
-
+<div align="center">
 
 # 📊 Dashboard Interativo de Salários na Área de Dados
 
-![Status](https://img.shields.io/badge/status-%20completo-green)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/streamlit-app-red?logo=streamlit)
-![Licença](https://img.shields.io/badge/licença-MIT-green)
+### 🚀 Análise e visualização inteligente de salários em Data Science com filtros interativos
+
+[![🌐 Acesse o Dashboard](https://img.shields.io/badge/🌐_Acesse_o_Dashboard-FF6B6B?style=for-the-badge&labelColor=4ECDC4)](https://dashboard-interativo-alura-gui.streamlit.app/)
+
+![Status](https://img.shields.io/badge/status-✅_completo-brightgreen?style=flat-square)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square&logo=python)
+![Streamlit](https://img.shields.io/badge/streamlit-1.44%2B-FF4B4B?style=flat-square&logo=streamlit)
+![Licença](https://img.shields.io/badge/licença-MIT-green?style=flat-square)
+
+</div>
 
 ---
 
-## 💡 Sobre o projeto
-Este projeto foi desenvolvido durante a **Imersão de Dados com Python** da [Alura](https://www.alura.com.br/).
+## 🎬 Demonstração Rápida
 
-O objetivo é explorar e analisar dados salariais de profissionais da área de dados ao longo dos últimos anos, permitindo ao usuário **filtrar por ano, senioridade, tipo de contrato e tamanho da empresa** e visualizar métricas relevantes como:
-
-- **Salário médio** e **máximo**
-- **Total de registros** analisados
-- **Cargo mais frequente**
-- **Top 10 cargos por salário médio**
-- **Distribuição de salários**
-
-> O dataset consolidado foi salvo como `dados-imersao-final.csv` após transformações feitas nas primeiras aulas.
+![Demonstração interativa](assets/demo-animado.gif)
 
 ---
 
-## 🌐 Acesso ao dashboard
-Acesse a versão online do app:
+## 🌐 Acesse o Dashboard Online
 
-🔗 **[Abrir no Streamlit](https://SEU-LINK-DO-STREAMLIT-AQUI)**
+### 🔗 **[📱 Abrir Dashboard Interativo](https://dashboard-interativo-alura-gui.streamlit.app/)**
 
-> Substitua o link acima pelo seu URL do Streamlit (ex.: `https://dashboard-interativo-alura-gui.streamlit.app`).
-
----
-
-## ⚙️ Funcionalidades
-- Filtros: **ano**, **senioridade**, **tipo de contrato**, **tamanho da empresa**.
-- KPIs: **média**, **máximo**, **total de registros**, **cargo mais frequente**.
-- Gráficos interativos (barras e histograma) para análise exploratória.
-- Layout simples e responsivo com Streamlit.
+<div align="center">
+  <img src="assets/dashboardInicial.png" alt="Dashboard - Visão Inicial" width="1000px"/>
+  <p><em>🎨 Interface principal do dashboard com filtros e métricas</em></p>
+</div>
 
 ---
 
-## 🛠 Tecnologias utilizadas
-- [Python](https://www.python.org/)
-- [Pandas](https://pandas.pydata.org/)
-- [Streamlit](https://streamlit.io/)
-- [Matplotlib](https://matplotlib.org/) / [Plotly](https://plotly.com/python/) *(se aplicável)*
+## ✨ Principais Funcionalidades
+
+### 🎛️ **Filtros Interativos**
+- 📅 **Filtro por Ano**: Explore tendências temporais de 2020 a 2025
+- 👥 **Nível de Senioridade**: Junior, Pleno, Senior
+- 📄 **Tipo de Contrato**: Tempo integral, meio período, freelance
+- 🏢 **Tamanho da Empresa**: Pequena, média e grande empresa
+
+### 📊 **Métricas em Tempo Real** 
+- 💵 **Salário Médio**: Média salarial baseada nos filtros aplicados
+- 🎯 **Salário Máximo**: Maior salário encontrado na seleção
+- 📈 **Total de Registros**: Quantidade de profissionais analisados
+- 🏆 **Cargo Mais Frequente**: Posição mais comum nos dados filtrados
+
+### 📈 **Visualizações Dinâmicas**
+- 📊 **Top 10 Cargos**: Ranking dos cargos mais bem remunerados
+- 📉 **Distribuição Salarial**: Histograma mostrando faixas de salário
+- 🌍 **Mapa Global**: Salários de Data Scientists por país
+- 🏠 **Trabalho Remoto**: Proporção entre presencial, remoto e híbrido
+
+### 🎨 **Interface Amigável**
+- 📱 **Design Responsivo**: Funciona perfeitamente em qualquer dispositivo
+- ⚡ **Atualização Instantânea**: Gráficos se atualizam em tempo real
+- 🎯 **Navegação Intuitiva**: Layout limpo e organizado
 
 ---
 
-## 📋 Pré-requisitos
-- **Git**
-- **Python 3.10+**
-- **Pip**
+## 🛠️ Tecnologias e Ferramentas
+
+<div align="center">
+
+| Tecnologia | Versão | Descrição |
+|------------|--------|-----------|
+| ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white) | 3.10+ | Linguagem principal do projeto |
+| ![Streamlit](https://img.shields.io/badge/Streamlit-1.44+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) | 1.44+ | Framework para criação do dashboard |
+| ![Pandas](https://img.shields.io/badge/Pandas-2.2+-150458?style=for-the-badge&logo=pandas&logoColor=white) | 2.2+ | Manipulação e análise de dados |
+| ![Plotly](https://img.shields.io/badge/Plotly-5.24+-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) | 5.24+ | Visualizações interativas |
+
+</div> 
 
 ---
 
-## 🚀 Como executar o projeto localmente
-```bash
-# Clone este repositório
-git clone https://github.com/xguimiranda/Dashboard_Interativo_Python.git
+## 🖼️ Capturas de Tela do Dashboard
 
-# Acesse a pasta do projeto
-cd Dashboard_Interativo_Python
+### 📊 **Visão Geral dos Gráficos**
+<div align="center">
+  <img src="assets/graficos.png" alt="Dashboard - Gráficos Interativos" width="1000px"/>
+  <p><em>🎯 Visualizações dinâmicas: Top cargos, distribuição salarial, mapa mundial e modalidades de trabalho</em></p>
+</div>
 
-# (Opcional, mas recomendado) Crie um ambiente virtual
-python -m venv .venv
+### 💻 **Análise no Google Colab**
+<div align="center">
+  <img src="assets/colab.png" alt="Análise no Google Colab" width="200px"/>
+  <p><em>🔬 Processo de análise e tratamento dos dados durante a Imersão Alura</em></p>
+</div>
 
-# Ative o ambiente virtual
-# Windows (PowerShell):
-.\.venv\Scripts\Activate.ps1
-# Windows (CMD):
-.\.venv\Scripts\activate.bat
-# Linux/Mac:
-source .venv/bin/activate
+> 📁 **Todas as imagens estão salvas na pasta `assets/` para referência visual**
 
-# Instale as dependências
-pip install -r requirements.txt
+---
 
-# Execute a aplicação
-streamlit run app.py
+## 📂 Estrutura do Projeto
+
 ```
-
----
-
-## 🖼 Capturas de tela
-
-> Salve as imagens na pasta `assets/` e mantenha os nomes abaixo (já incluídos neste pacote).
-
-**Visão geral do dashboard**  
-![Dashboard - Visão Geral](assets/dashboard-visao-geral.jpg)
-
-**Página inicial do repositório**  
-![Repositório - Home](assets/repo-home.jpg)
-
----
-
-## 📂 Estrutura do repositório
-```
-Dashboard_Interativo_Python/
+📦 Dashboard_Interativo_Python/
 │
-├── app.py                  # Código principal do dashboard
-├── dados-imersao-final.csv # Base de dados utilizada
-├── requirements.txt        # Dependências do projeto
-├── README.md               # Documentação do projeto
-└── assets/                 # Imagens e arquivos estáticos do README
+├── 🎯 app.py                    # 🚀 Código principal do dashboard Streamlit
+├── 📊 dados-imersao-final.csv   # 💾 Dataset tratado e consolidado  
+├── 📋 requirements.txt          # 📚 Dependências do projeto
+├── 📖 README.md                 # 📝 Documentação (este arquivo)
+└── 🖼️ assets/                   # 🎨 Imagens e recursos visuais
+    ├── imersaoAlura.png         # 🎓 Banner da Imersão Alura
+    ├── dashboardInicial.png     # 📱 Tela inicial do dashboard
+    ├── graficos.png             # 📊 Visualizações do dashboard
+    └── colab.png                # 💻 Análise no Google Colab
 ```
 
 ---
 
-## 🗺 Roadmap da Imersão
-- **Aulas 1–3:** Limpeza, transformação e consolidação do dataset; exportação final em `dados-imersao-final.csv`.
-- **Aula 4:** Construção do **dashboard interativo** em Streamlit com filtros e visualizações.
-- **Aula 5 (opcional):** Publicação do app no **Streamlit Community Cloud** e ajuste fino da experiência.
+## 🤝 Como Contribuir
 
----
-
-## 🤝 Contribuindo
-Contribuições são bem-vindas!  
-1. Faça um fork
-2. Crie uma branch: `git checkout -b minha-feature`
-3. Commit: `git commit -m 'feat: minha feature'`
-4. Push: `git push origin minha-feature`
-5. Abra um Pull Request
-
----
-
-## 📄 Licença
-Este projeto está sob a licença **MIT**.  
-Sinta-se à vontade para reutilizar com os devidos créditos.
+Contribuições, ideias novas e sugestões são sempre muito bem-vindas! Se você quiser ajudar a melhorar este projeto, fique à vontade para abrir issues, enviar pull requests ou compartilhar suas ideias.
 
 ---
 
 ## 👤 Autor
-**Guilherme Miranda**  
-🔗 GitHub: [@xguimiranda](https://github.com/xguimiranda)  
-🔗 LinkedIn: https://www.linkedin.com/in/SEU-PERFIL-AQUI
+
+<div align="center">
+
+### **Guilherme Miranda** 👨‍💻
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/xguimiranda)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SEU-PERFIL-AQUI)
+
+---
+
+<div align="center">
+
+### ⭐ **Gostou do projeto? Deixe uma estrela!** ⭐
+
+**🔗 [Dashboard Interativo Online](https://dashboard-interativo-alura-gui.streamlit.app/)**
+
+*Desenvolvido com ❤️ durante a Imersão de Dados Alura*
+
+</div>
+
+</div>
