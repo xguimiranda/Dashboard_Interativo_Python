@@ -1,3 +1,16 @@
+<div align="center">
+  <a href="https://dashboard-interativo-alura-gui.streamlit.app">
+    <img src="assets/alura.png" alt="Imersão alura" width="150px"/>
+  </a>
+</div>
+<br>
+<p align="center">
+  <a href="https://dashboard-interativo-alura-gui.streamlit.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/website-%23007ACC?style=flat-square&logo=google-chrome&logoColor=white" alt="Site" />
+  </a>
+</p>
+
+
 
 # 📊 Dashboard Interativo de Salários na Área de Dados
 
@@ -5,22 +18,6 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/streamlit-app-red?logo=streamlit)
 ![Licença](https://img.shields.io/badge/licença-MIT-green)
-
----
-
-## 📌 Índice
-1. [Sobre o projeto](#-sobre-o-projeto)
-2. [Acesso ao dashboard](#-acesso-ao-dashboard)
-3. [Funcionalidades](#-funcionalidades)
-4. [Tecnologias utilizadas](#-tecnologias-utilizadas)
-5. [Pré-requisitos](#-pré-requisitos)
-6. [Como executar o projeto localmente](#-como-executar-o-projeto-localmente)
-7. [Capturas de tela](#-capturas-de-tela)
-8. [Estrutura do repositório](#-estrutura-do-repositório)
-9. [Roadmap da Imersão](#-roadmap-da-imersão)
-10. [Contribuindo](#-contribuindo)
-11. [Licença](#-licença)
-12. [Autor](#-autor)
 
 ---
 
